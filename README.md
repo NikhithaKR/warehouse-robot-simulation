@@ -1,20 +1,24 @@
-# warehouse-robot-simulation
-Python simulation of an autonomous robot navigating a warehouse using Pygame.
+# Autonomous Robot Simulation in a Warehouse
 
+## Objective
+This project simulates an autonomous robot navigating a 10x10 meter warehouse environment. The robot's goal is to move from the starting position `(0, 0)` to the destination `(7, 9)` while adhering to specified movement constraints.
 
-# Autonomous Robot Warehouse Simulation
-
-This project simulates an autonomous robot navigating a 10x10 meter warehouse environment, built using Python and Pygame. The robot moves from a starting point to a specified target while respecting movement constraints and periodically stopping.
+## Project Description
+This Python-based simulation implements a simple robotic control system with the following key features:
+- **Warehouse Boundaries**: A 10m x 10m space within which the robot must operate.
+- **Movement Constraints**: The robot moves at a speed of 0.1 meters per second and must pause for 2 seconds after each 0.1-second interval of travel.
+- **Path Planning**: The robot is programmed to reach its destination while respecting boundaries and avoiding obstacles (if any are added in the future).
 
 ## Features
-- Simulates robot movement with speed and stopping intervals.
-- Avoids warehouse boundaries.
-- Demonstrates basic robotic navigation in a grid-based environment.
+- **Speed Limitation**: Ensures the robot travels at a maximum speed of 0.5 m/s.
+- **Periodic Stop**: The robot pauses for 2 seconds after every 0.1 seconds of movement to simulate a real-world operation delay.
+- **Boundary Management**: The robot checks to stay within the boundaries of the warehouse and avoids out-of-bounds movement.
+  
+## Installation
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/yourusername/AutonomousRobotSimulation.git
+   cd AutonomousRobotSimulation
 
-## Requirements
-- Python 3.x
-- Pygame library
-
-Install dependencies with:
-```bash
-pip install -r requirements.txt
+## libraries 
+ numpy, matplotlib, pygame
