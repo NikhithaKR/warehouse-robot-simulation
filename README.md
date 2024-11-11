@@ -21,11 +21,14 @@ This Python-based simulation implements a simple robotic control system with the
    cd AutonomousRobotSimulation
 
 ## libraries 
- numpy, matplotlib, pygame
+```bash
+!pip install numpy
+!pip install matplotlib
+!pip install pygame
 
-Run the Simulation: To start the robot simulation, run:
+# Run the Simulation: To start the robot simulation, run:
 ```bash
 python main.py
 
-## Customize Parameters
+# Customize Parameters
 You can adjust parameters like speed, stop interval, or destination within the script to test different scenarios.
