@@ -22,3 +22,10 @@ This Python-based simulation implements a simple robotic control system with the
 
 ## libraries 
  numpy, matplotlib, pygame
+
+Run the Simulation: To start the robot simulation, run:
+```bash
+python main.py
+
+## Customize Parameters
+You can adjust parameters like speed, stop interval, or destination within the script to test different scenarios.
