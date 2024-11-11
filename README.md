@@ -27,7 +27,6 @@ This Python-based simulation implements a simple robotic control system with the
 !pip install pygame
 
 # Run the Simulation: To start the robot simulation, run:
-```bash
 python main.py
 
 # Customize Parameters
